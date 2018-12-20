@@ -29,4 +29,4 @@ v2 == "ATSUSHI YOSHIDA" #=> true
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/yalab/crypted_value.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jiraffeinc/crypted_value.
