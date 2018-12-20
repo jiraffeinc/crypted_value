@@ -6,12 +6,12 @@ require "crypted_value/version"
 Gem::Specification.new do |spec|
   spec.name          = "crypted_value"
   spec.version       = CryptedValue::VERSION
-  spec.authors       = ["yalab"]
-  spec.email         = ["rudeboyjet@gmail.com"]
+  spec.authors       = ["Atsushi Yoshida"]
+  spec.email         = ["yoshida@jiraffe.co.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "This gem provides crypted value"
+  spec.description   = "Safe crypted value and compare it."
+  spec.homepage      = "https://github.com/jiraffeinc/crypted_value"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_dependency "bcrypt", "~> 3.1"
 end
